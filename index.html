@@ -9,14 +9,15 @@
 <body>
     <div class="container">
         <h1>123go Event Feedback Form</h1>
+        <p>We value your input! Please let us know how the event went.</p>
         <form id="feedbackForm">
             <div class="form-group">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
             </div>
             <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" required placeholder="your.email@example.com">
             </div>
             <div class="form-group">
                 <label>How would you rate the event?</label>
@@ -30,7 +31,7 @@
             </div>
             <div class="form-group">
                 <label for="comments">Comments:</label>
-                <textarea id="comments" name="comments" rows="4"></textarea>
+                <textarea id="comments" name="comments" rows="4" placeholder="Tell us more..."></textarea>
             </div>
             <button type="submit">Submit Feedback</button>
         </form>
